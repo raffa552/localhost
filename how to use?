@@ -1,0 +1,5 @@
+open termux
+pkg install git
+git clonehttps://github.com/raffa552/localhost.git
+cd localhost
+python localhost-web.py
